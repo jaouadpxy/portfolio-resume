@@ -1,0 +1,24 @@
+{
+  "name": "jaouads.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clear-cache": "rm -rf .cache / dist/",
+    "start": "parcel src/index.html -p 3000 --open chrome",
+    "format": "prettier --write \"src/**/*.{js,jsx.css,json,scss}\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1",
+    "tachyons-sass": "^4.9.5"
+  }
+}
